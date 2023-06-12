@@ -1,8 +1,8 @@
-import './App.css';
-import { Banner } from './components/Banner';
-import { Nav } from './components/Nav';
-import { Row } from './components/Row';
-import { requests } from './request';
+import "./App.css";
+import { Banner } from "./components/Banner";
+import { Nav } from "./components/Nav";
+import { Row } from "./components/Row";
+import { requests } from "./request";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Row
         title="NETFLIX ORIGINAL"
         fetchUrl={requests.fetchNetflixOriginals}
-        isLargeRow  
+        isLargeRow
       />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
